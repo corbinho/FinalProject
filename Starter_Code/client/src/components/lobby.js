@@ -7,9 +7,6 @@ class Lobby extends React.Component {
       return <div>
           <button>Create a Game</button>
           <button>Join a Game</button>
-
-
-
       </div>;
     }
   }
