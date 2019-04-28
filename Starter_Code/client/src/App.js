@@ -1,23 +1,17 @@
 import React, { Component } from "react";
-
 import "./App.css";
+<<<<<<< HEAD
+import DraftMinion from "./components/draftMinion/DraftMinion"
+=======
 
 import DraftMinion from "./components/draftMinion/draftMinion"
+>>>>>>> 86ea2dc7b70d84c5a94a65c33c3e83d8be2281c1
 
 
 
 class App extends Component {
   render() {
     return (
-      // <div className="App">
-      //   <div className="App-header">
-      //     <img src={logo} className="App-logo" alt="logo" />
-      //     <h2>Welcome to React</h2>
-      //   </div>
-      //   <p className="App-intro">
-      //     To get started, edit <code>src/App.js</code> and save to reload.
-      //   </p>
-      // </div>
       <DraftMinion></DraftMinion>
     );
   }
