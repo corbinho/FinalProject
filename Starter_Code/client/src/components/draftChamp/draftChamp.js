@@ -2,15 +2,15 @@ import React from "react";
 
 function draftChamp(props) {
     return <div>
-        <h3 id="champName">{props.name}</h3>
-        <p id="champHealth">{props.health}</p>
-        <p id="champattack1">{props.attack1}</p>
-        <p id="champattack1cost">{props.attack1cost}</p>
-        <p id="champattack2">{props.attack2}</p>
-        <p id="champattack2cost">{props.attack2cost}</p>
-        <p id="weakness">{props.weakness}</p>
-        <p id="stength">{props.strength}</p>
-        <img id= "champImage" src={props.image}></img>
+        <h3 className="champName">{props.name}</h3>
+        <p className="champHealth">{props.health}</p>
+        <p className="champattack1">{props.attack1}</p>
+        <p className="champattack1cost">{props.attack1cost}</p>
+        <p className="champattack2">{props.attack2}</p>
+        <p className="champattack2cost">{props.attack2cost}</p>
+        <p className="weakness">{props.weakness}</p>
+        <p className="stength">{props.strength}</p>
+        <img className= "champImage" src={props.image}></img>
     </div>
   }
 
