@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 
 import "./App.css";
+
 import DraftMinion from "./components/draftMinion/draftMinion"
+
 
 
 class App extends Component {

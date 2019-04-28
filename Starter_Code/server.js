@@ -4,7 +4,7 @@ const app = require("express")();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 const mongoose = require("mongoose");
-const routes = require("./routes");
+// const routes = require("./routes");
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
@@ -17,7 +17,7 @@ app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/public/index.html"));
 });
 
-app.use(routes);
+// app.use(routes);
 
 io.on('connection', function(socket){
   console.log('a user connected');
