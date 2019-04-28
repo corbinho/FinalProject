@@ -1,6 +1,6 @@
 import React from "react";
 
-function draftMinion(props) {
+function GameMinion(props) {
     return <div>
         <h3 className="minionName">{props.name}</h3>
         <p className="minionHealth">{props.health}</p>
@@ -15,4 +15,4 @@ function draftMinion(props) {
     </div>
   }
 
-  export default draftMinion;
+  export default GameMinion;
