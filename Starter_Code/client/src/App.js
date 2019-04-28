@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
-import Lobby from "./components/lobby/lobby"
-import DraftMinion from "./components/draftMinion/draftMinion";
+
+import DraftMinion from "./components/draftMinion/draftMinion"
+
+
 
 class App extends Component {
   render() {

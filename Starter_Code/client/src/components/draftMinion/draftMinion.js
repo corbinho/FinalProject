@@ -1,5 +1,8 @@
 import React from "react";
-import styles from "./DraftMinion.scss"
+
+import styles from './draftMinion.css';
+
+
 
 function DraftMinion(props) {
     return <div className= {styles.minionCard}>
@@ -12,7 +15,8 @@ function DraftMinion(props) {
         <p className={styles.minionCost}>{props.playCost}</p>
         <p className={styles.minionWeakness}>{props.weakness}</p>
         <p className={styles.minionStrength}>{props.strength}</p>
-        {/* <img className= {styles.minionPortrait} src={props.image}></img> */}
+        <img className= {styles.minionPortrait} src={props.image} alt="random"></img>
+
     </div>
   }
 
