@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Lobby from "./components/lobby/lobby"
+import DraftMinion from "./components/draftMinion/draftMinion";
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
       //     To get started, edit <code>src/App.js</code> and save to reload.
       //   </p>
       // </div>
-      <Lobby></Lobby>
+      <DraftMinion></DraftMinion>
     );
   }
 }
